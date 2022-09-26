@@ -1,0 +1,16 @@
+/venv/
+/main/
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/PatchClassifier.iml
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/vcs.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/.gitignore
+/ase_dataset_sept_19_2021.csv
+/huawei_sub_dataset.csv
+/huawei_sub_dataset_new.csv
+/probs
+/features
+/img
+/model
