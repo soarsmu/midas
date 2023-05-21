@@ -1,9 +1,26 @@
 # MiDas - Multi-granularity Detector for Vulnerability Fixing Commits
 
+This repository contains source code of research paper "Multi-granularity Detector for Vulnerability Fixing Commits", which is published IEEE Transactions on Software Engineering.
+
+Please cite the following article if you find Midas to be useful:
+
+Truong Giang Nguyen, Thanh Le-Cong, Hong Jin Kang, Ratnadira Widyasari, Chengran Yang, Zhipeng
+Zhao, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Xuan-Bach D. Le, and David Lo
+
+```
+@article{nguyen2023midas,
+  author={Nguyen, Truong Giang and Le-Cong, Thanh and Kang, Hong Jin and Widyasari, Ratnadira and Yang, Chengran and Zhao, Zhipeng and Xu, Bowen and Zhou, Jiayuan and Xia, Xin and Hassan, Ahmed E. and Le, Xuan-Bach D. and Lo, David},
+  journal={IEEE Transactions on Software Engineering}, 
+  title={Multi-granularity Detector for Vulnerability Fixing Commits}, 
+  year={2023},
+  volume={},
+  number={},
+}
+```
+## Introduction
 MiDas is a transformer-based novel techinique for detecting vulnerability-fixing commits. MiDas extract information of commit in respect to multiple levels of granularity (i.e. commit level, file level, hunk level, line level)
 
 MiDas consists of seven feature extractors, regard the combination of granularity and CodeBERT representation:
-
 
 | Feature extractor index | Granularity | CodeBERT representation |
 |------------------|-------------|-------------------------|
