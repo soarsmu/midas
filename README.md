@@ -1,6 +1,6 @@
-# MiDas - Multi-granularity Detector for Vulnerability Fixing Commits
+# MiDas - Multi-granularity Detector for Vulnerability Fixes
 
-This repository contains source code of research paper "Multi-granularity Detector for Vulnerability Fixing Commits", which is published IEEE Transactions on Software Engineering.
+This repository contains source code of research paper "Multi-granularity Detector for Vulnerability Fixes", which is published IEEE Transactions on Software Engineering.
 
 Please cite the following article if you find Midas to be useful:
 
@@ -11,7 +11,7 @@ Zhao, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Xuan-Bach D. Le, and Dav
 @article{nguyen2023midas,
   author={Nguyen, Truong Giang and Le-Cong, Thanh and Kang, Hong Jin and Widyasari, Ratnadira and Yang, Chengran and Zhao, Zhipeng and Xu, Bowen and Zhou, Jiayuan and Xia, Xin and Hassan, Ahmed E. and Le, Xuan-Bach D. and Lo, David},
   journal={IEEE Transactions on Software Engineering}, 
-  title={Multi-granularity Detector for Vulnerability Fixing Commits}, 
+  title={Multi-granularity Detector for Vulnerability Fixes}, 
   year={2023},
   volume={},
   number={},
