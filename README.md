@@ -29,7 +29,7 @@ To replicate the training process of MiDas, please follow the below steps:
 ## Prerequisites
 Make sure you create a directory to store embedding vectors, a folder "model" to store saved model, and a "features" folder to store extractor features following this hierarchy:
 ```
-    VulPatchClassifier
+    MiDas
         model
         features
         ...
@@ -43,11 +43,11 @@ Make sure you create a directory to store embedding vectors, a folder "model" to
         variant_8
 ```
 
-Note: If you run VulPatchClassifier on a Docker container, please run docker with parameters: "LANG=C.UTF-8 -e LC_ALL=C.UTF-8" to avoid error when writing to file, "--shm-size 16G" to avoid memory problem, "--gpus all" in case you use multiple GPUs
+Note: If you run MiDas on a Docker container, please run docker with parameters: "LANG=C.UTF-8 -e LC_ALL=C.UTF-8" to avoid error when writing to file, "--shm-size 16G" to avoid memory problem, "--gpus all" in case you use multiple GPUs
 
 ## Dataset
 The dataset is available at: https://zenodo.org/record/5565182#.Yv3lHuxBxO8
-Please download and put dataset inside the VulPatchClassifier folder
+Please download and put dataset inside the MiDas folder
 
 
 ## Replication
