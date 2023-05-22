@@ -24,13 +24,13 @@ MiDas consists of seven feature extractors, regard the combination of granularit
 
 | Feature extractor index | Granularity | CodeBERT representation |
 |------------------|-------------|-------------------------|
-| 1                | Commit      | Bimodal                 |
-| 2                | File        | Bimodal                 |
-| 3                | Hunk        | Bimodal                 |
-| 5                | Commit      | Unimodal                |
-| 6                | File        | Unimodal                |
-| 7                | Hunk        | Unimodal                |
-| 8                | Line        | Unimodal                |
+| 1                | Commit      | Context-dependant       |
+| 2                | File        | Context-dependant       |
+| 3                | Hunk        | Context-dependant       |
+| 5                | Commit      | Context-free            |
+| 6                | File        | Context-free            |
+| 7                | Hunk        | Context-free            |
+| 8                | Line        | Context-free            |
 
 
 To replicate the training process of MiDas, please follow the below steps:
