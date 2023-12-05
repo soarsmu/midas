@@ -1,6 +1,7 @@
-# MiDas - Multi-granularity Detector for Vulnerability Fixes
+# ⚙️ MiDas 🔎
+*by Truong Giang Nguyen, Thanh Le-Cong, Hong Jin Kang, Ratnadira Widyasari, Chengran Yang, Zhipeng Zhao, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Xuan-Bach D. Le, David Lo*
 
-This repository contains source code of research paper "Multi-granularity Detector for Vulnerability Fixes", which is published IEEE Transactions on Software Engineering.
+Welcome to the source code repo of **MiDas**, a vulnerability-fixing commit detection tool introduced in our paper "Multi-granularity Detector for Vulnerability Fixes"! 
 
 Please cite the following article if you find Midas to be useful:
 
@@ -17,7 +18,7 @@ Zhao, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Xuan-Bach D. Le, and Dav
   number={},
 }
 ```
-## Introduction
+## 📃 Introduction
 MiDas is a transformer-based novel techinique for detecting vulnerability-fixing commits. MiDas extract information of commit in respect to multiple levels of granularity (i.e. commit level, file level, hunk level, line level)
 
 MiDas consists of seven feature extractors, regard the combination of granularity and CodeBERT representation:
@@ -43,7 +44,7 @@ To replicate the training process of MiDas, please follow the below steps:
         6. Apply adjustment function 
         7. Evaluate MiDas 
 
-## Prerequisites
+## 🔧 Prerequisites
 Make sure you create a directory to store embedding vectors, a folder "model" to store saved model, and a "features" folder to store extractor features following this hierarchy:
 ```
     MiDas
@@ -62,12 +63,12 @@ Make sure you create a directory to store embedding vectors, a folder "model" to
 
 Note: If you run MiDas on a Docker container, please run docker with parameters: "LANG=C.UTF-8 -e LC_ALL=C.UTF-8" to avoid error when writing to file, "--shm-size 16G" to avoid memory problem, "--gpus all" in case you use multiple GPUs
 
-## Dataset
+## 📁 Dataset
 The dataset is available at: https://zenodo.org/record/5565182#.Yv3lHuxBxO8
 Please download and put dataset inside the MiDas folder
 
 
-## Replication
+## 🚀 Replication
 
 Note: The current code base requires two GPUs to run. We will try to make it more flexible. 
 
