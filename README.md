@@ -1,6 +1,7 @@
 # ⚙️ MiDas 🔎
 *by Truong Giang Nguyen, Thanh Le-Cong, Hong Jin Kang, Ratnadira Widyasari, Chengran Yang, Zhipeng Zhao, Bowen Xu, Jiayuan Zhou, Xin Xia, Ahmed E. Hassan, Xuan-Bach D. Le, David Lo*
-<p align="left">
+
+<p align="center">
     <a href="https://ieeexplore.ieee.org/document/10138621"><img src="https://img.shields.io/badge/Journal-IEEE TSE Volume 49 (2023)-green?style=for-the-badge">
     <a href="https://arxiv.org/pdf/2305.13884.pdf"><img src="https://img.shields.io/badge/arXiv-2305.13884-b31b1b.svg?style=for-the-badge">
     <a href="https://hub.docker.com/r/thanhlecong/midas"><img src="https://img.shields.io/badge/docker-thanhlecong%2Fmidas-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white"></a>
